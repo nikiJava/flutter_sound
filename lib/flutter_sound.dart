@@ -203,9 +203,6 @@ class FlutterSound {
 
 
   Future<String> stopPlayer() async {
-    if (!this._isPlaying) {
-      throw PlayerStoppedException('Player already stopped.');
-    }
     this._isPlaying = false;
 
     String result = await _channel.invokeMethod('stopPlayer');
