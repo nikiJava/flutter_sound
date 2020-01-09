@@ -20,3 +20,8 @@ example/android/app/.classpath
 example/android/app/.project
 example/android/app/.settings/org.eclipse.buildship.core.prefs
 flutter_export_environment*
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradlew
+android/gradlew.bat
+/ios/Podfile
